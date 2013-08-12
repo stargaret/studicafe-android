@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity"
+    android:background="@drawable/navigation_button" >
+    
+    <Button 
+        
+        android:id="@+id/about"
+        android:layout_width="130dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/about_us"
+        />
+    
+    <Button 
+        
+        android:id="@+id/studycaf"
+        android:layout_width="144dp"
+        android:layout_height="86dp"
+            android:layout_marginTop="90dp"
+        android:layout_marginLeft="138dp"
+        android:background="@drawable/studicafe_boulevard"
+        />
+    
+    <Button 
+        
+        android:id="@+id/mystudy"
+        android:layout_width="153dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="135dp"
+        android:background="@drawable/my_study_room"
+        />
+    
+    
+    
+    
+    </RelativeLayout>
