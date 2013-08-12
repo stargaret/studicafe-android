@@ -30,6 +30,26 @@
             android:name="com.studicafe.RegistrationActivity"
             android:label="@string/title_activity_registration" >
         </activity>
+        <activity
+            android:name="com.studicafe.QuestionList"
+            android:label="@string/title_activity_question_list" >
+        </activity>
+        <activity
+            android:name="com.studicafe.QuestionListAdapter"
+            android:label="@string/title_activity_question_list_adapter"
+            android:parentActivityName="ArrayAdapter" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ArrayAdapter" />
+        </activity>
+        <activity
+            android:name="com.studicafe.SunriseActivity"
+            android:label="@string/title_activity_sunrise" >
+        </activity>
+        <activity
+            android:name="com.studicafe.MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
     </application>
 
 </manifest>
