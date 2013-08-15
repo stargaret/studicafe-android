@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="question_selected_color">#ffe0a0</drawable>
+    <drawable name="question_normal_color">#fff8e8</drawable>
+
+</resources>
