@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/question_background_color_selector"
-    android:orientation="horizontal"
-    android:padding="5dp" >
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/question_background_color_selector"
+                android:orientation="horizontal"
+                android:padding="5dp">
 
     <ImageView
-        android:id="@+id/question_row_radio_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="TODO"
-        android:src="@android:drawable/radiobutton_on_background" />
+            android:id="@+id/question_row_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            android:src="@android:drawable/radiobutton_on_background"/>
 
     <TextView
-        android:id="@+id/question_row_item"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/question_row_radio_button"
-        android:paddingLeft="5dp"
-        android:textColor="#000000"
-        android:textSize="20sp" />
+            android:id="@+id/question_row_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/question_row_radio_button"
+            android:paddingLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
 
     <ImageView
-        android:id="@+id/question_row_x"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_alignParentRight="true"
-        android:layout_gravity="right"
-        android:scaleType="fitEnd"
-        android:src="@drawable/wrong_answer"
-        android:visibility="invisible" />
+            android:id="@+id/question_row_x"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:scaleType="fitEnd"
+            android:src="@drawable/wrong_answer"
+            android:visibility="invisible"/>
 
 </RelativeLayout>

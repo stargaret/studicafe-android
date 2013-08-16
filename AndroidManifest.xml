@@ -31,17 +31,25 @@
             android:label="@string/title_activity_registration" >
         </activity>
         <activity
+                android:name="com.studicafe.AboutUsActivity"
+                android:label="@string/title_activity_aboutus" >
+        </activity>
+        <activity
+                android:name="com.studicafe.CafeBoulevardActivity"
+                android:label="@string/title_activity_cafeboulevard" >
+        </activity>
+        <activity
             android:name="com.studicafe.QuestionList"
             android:label="@string/title_activity_question_list" >
         </activity>
-        <activity
+        <!--activity
             android:name="com.studicafe.QuestionListAdapter"
             android:label="@string/title_activity_question_list_adapter"
             android:parentActivityName="ArrayAdapter" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="ArrayAdapter" />
-        </activity>
+        </activity-->
         <activity
             android:name="com.studicafe.SunriseActivity"
             android:label="@string/title_activity_sunrise" >

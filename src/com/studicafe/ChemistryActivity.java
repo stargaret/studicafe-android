@@ -1,4 +1,4 @@
-package com.studicafe.study;
+package com.studicafe;
 
 import android.app.Activity;
 

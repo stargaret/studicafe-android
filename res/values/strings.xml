@@ -10,16 +10,20 @@
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="title_activity_registration">RegistrationActivity</string>
-    <string name="register"><u>Register for StudiCafe</u></string>
+    <string name="register">
+        <u>Register for StudiCafe</u>
+    </string>
     <string name="menu_settings">Settings</string>
-    
-	<color name="background">#fff8e8</color>
+
+    <color name="background">#fff8e8</color>
     <color name="pressed_question">#ffe0a0</color>
     <color name="highlighted_answer">#99d28b</color>
-    
+
     <string name="title_activity_question_list">QuestionList</string>
     <string name="title_activity_question_list_adapter">QuestionListAdapter</string>
     <string name="title_activity_sunrise">StudiCafé</string>
     <string name="title_activity_menu">MenuActivity</string>
-    
+    <string name="title_activity_aboutus">AboutUsActivity</string>
+    <string name="title_activity_cafeboulevard">CafeBoulevardActivity</string>
+
 </resources>
